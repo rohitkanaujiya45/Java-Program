@@ -1,13 +1,9 @@
-import java.util.Scanner;
 class swap
 {
     public static void main(String arg[])
     {
-        int a,b,temp;
+        int a=12,b=28,temp;
         System.out.println("Enter the value");
-        Scanner r=new Scanner(System.in);
-        a=r.nextInt();
-        b=r.nextInt();
         System.out.println("Before swaping"+a+" "+b);
         temp=a;
         a=b;
